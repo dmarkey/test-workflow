@@ -1,0 +1,7 @@
+name: 'Print Env'
+description: 'Print environment'
+runs:
+  using: "composite"
+  steps:
+    - run: env.sh
+      shell: bash
